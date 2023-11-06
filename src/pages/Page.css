@@ -1,0 +1,61 @@
+.navbar {
+  background-color: #2268ae;
+  color: white;
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+  position: relative;
+  z-index: 9999;
+}
+.app {
+  position: relative;
+  z-index: 999;
+  background-color: lightgrey;
+}
+
+.sidebar-container {
+  position: absolute;
+  z-index: 111;
+}
+.navbar-container {
+  z-index: -1;
+}
+
+.home-icon {
+}
+.sidebar {
+  background-color: #2268ae;
+  width: 110px;
+  height: 100vh;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  z-index: 10000;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.upper-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.lower-section {
+}
+.main-content {
+  margin-left: 0px;
+}
+
+.sidebar-image {
+}
